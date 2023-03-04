@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  
+    background-image: url(stethoscope.png);
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+nav ul{
+    display: flex;
+    padding-right: 40px;
+    list-style: none;
+ 
+}
+nav ul li{
+    padding-right: 20px;
+    text-decoration: none;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+nav ul li a:hover{
+    color: green;
+    background-color: white; 
+}
+#home a{
+    color:green;
+    
+}
+.main{
+    display: flex;
+}
+.leftside{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+
+button{
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content h1{
+  font-size: 70px;
+}
+.down{
+    padding-left: 100%;
+}
+.right{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.yellow{
+    position: absolute;
+    top: 28%;
+    left: 73%;
+    z-index: 2;
+   
+}
+.yellow img{
+    height: 350px;
+    width: 350px;
+   
+}
+.green{
+    position: absolute;
+    top: 20%;
+    left: 64%;
+    z-index: 1;
+   
+}
+.green img{
+    height: 450px;
+    width: 450px;
+}
+.doctor{
+    position: absolute;
+    top: 10%;
+    left: 68%;
+    z-index: 3;
+}
+.doctor img{
+    height: 555px;
+    width: 400px;
+}
+/*about section*/
+.contain{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+    
+    
+}
+.contain h1{
+    color: #32da32;
+    font-size: 40px;
+    padding-left: 14px;
+}
+.contain h4{
+    padding: 8px;
+    margin-left: 25px;
+    margin-top: 10px;
+    align-items: center;
+}
+.box1{
+    height: 60px;
+    width: 110px;
+    
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 3px gray;
+}
+.box2{
+    height: 60px;
+    width: 110px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 3px gray;
+}
+.box3{
+    height: 60px;
+    width: 110px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 3px gray;
+}
+.box1 p{
+    padding-top: 10px;
+    padding-left: 29px;
+    font-weight: 900;
+}
+.box1 span{
+    padding-left: 10px;
+    color: #32da32;
+    font-weight: 900;
+}
+.box2 p{
+    padding-top: 10px;
+    padding-left: 12px;
+    font-weight: 900;
+}
+.box2 p span{
+    padding-left: 12px;
+    color: #32da32;
+    font-weight: 900;
+}
+.box3 p{
+    padding-top: 10px;
+    padding-left: 25px;
+    font-weight: 900;
+    
+}
+.box3 p span{
+    padding-left: 10px;
+    color: #32da32;
+    font-weight: 900;
+}
+/*  form styling */
+
+   
+    .bg{
+       
+    }
+
+.all{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    
+    
+}
+form{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 30px;
+    background-color: rgb(211, 194, 194);
+    
+  
+
+   
+    
+}
+form input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+.submit{
+    position: absolute;
+    top: 86%;
+    left: 5%;
+
+}
